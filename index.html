@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>378 Starter Template</title>
+    <title>Carousel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -10,8 +10,32 @@
   <body>
   
   <div class="container">
-    <h1>Let's Get Started...</h1>
-    
+  
+  
+        <h1>Carousel</h1>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="active item">
+                <!--Image goes here-->
+                	<img src="img/1.jpg" />
+                    <div class="carousel-caption">
+                    Whoop Whoop first image
+                    </div>
+                </div>
+                <div class="item">
+                	<img src="img/2.jpg" />
+                </div>
+                <div class="item">
+                	<img src="img/3.jpg" />
+                </div>
+            </div>
+            <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+        </div>
+   </div> 
     <div class="row">
     
     	<div class="span12">
@@ -56,5 +80,6 @@
     
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
